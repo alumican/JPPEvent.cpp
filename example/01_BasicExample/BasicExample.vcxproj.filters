@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="..\..\src\Event.cpp">
+      <Filter>JPPEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventDispatcher.cpp">
+      <Filter>JPPEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventListener.cpp">
+      <Filter>JPPEvent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="..\..\src\Event.h">
+      <Filter>JPPEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventDispatcher.h">
+      <Filter>JPPEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventListener.h">
+      <Filter>JPPEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventType.h">
+      <Filter>JPPEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\JPPEvent.h">
+      <Filter>JPPEvent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="JPPEvent">
+      <UniqueIdentifier>{9fb49551-0494-4492-b946-c288aa94577a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

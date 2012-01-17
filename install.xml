@@ -1,0 +1,30 @@
+<install>
+	
+	<version>1.0</version>
+	<author>Yukiya Okuda</author>
+	<url>http://alumican.net/</url>
+    
+	<requires>
+		<addon>JPPEvent</addon>
+	</requires>
+	
+	<add>
+		<src>
+			<folder name="addons/JPPEvent/src">
+				<file>../../../addons/JPPEvent/src/JPPEvent.h</file>
+				<file>../../../addons/JPPEvent/src/EventType.h</file>
+				<file>../../../addons/JPPEvent/src/Event.h</file>
+				<file>../../../addons/JPPEvent/src/EventDispatcher.h</file>
+				<file>../../../addons/JPPEvent/src/EventListener.h</file>
+			</folder>
+		</src>
+		
+		<include>
+			<path>../../../addons/JPPEvent/src</path>
+		</include>
+		
+		<link>
+		</link>
+	</add>
+	
+</install>
